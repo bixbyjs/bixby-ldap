@@ -2,6 +2,9 @@ exports = module.exports = function(container) {
   var Factory = require('fluidfactory');
   
   
+  // TODO: Implement a local directory
+  // dscl /Local/Default -authonly username password
+  
   var factory = new Factory();
   
   var createFnDecls = container.specs('http://i.bixbyjs.org/ds/createDirectoryFunc');
