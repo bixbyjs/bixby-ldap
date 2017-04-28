@@ -1,9 +1,11 @@
+/*
 exports = module.exports = {
   'directory': require('./directory'),
   'directory/ldap': require('./directory/ldap')
 };
+*/
 
-exports.load = function(id) {
+exports = module.exports = function(id) {
   try {
     return require('./' + id);
   } catch (ex) {
