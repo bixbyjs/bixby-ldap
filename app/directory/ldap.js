@@ -16,5 +16,5 @@ exports = module.exports = function(container) {
   };
 };
 
-exports['@implements'] = 'http://i.bixbyjs.org/ds/createDirectoryFunc';
+exports['@implements'] = 'http://i.bixbyjs.org/ds/createDirectoryImpl';
 exports['@singleton'] = true;

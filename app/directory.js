@@ -7,11 +7,11 @@ exports = module.exports = function(container) {
   
   var factory = new Factory();
   
-  var createFnDecls = container.specs('http://i.bixbyjs.org/ds/createDirectoryFunc');
-  return Promise.all(createFnDecls.map(function(spec) { return container.create(spec.id); } ))
-    .then(function(fns) {
-      fns.forEach(function(fn, i) {
-        factory.use(fn);
+  var createImplDecls = container.specs('http://i.bixbyjs.org/ds/createDirectoryImpl');
+  return Promise.all(createImplDecls.map(function(spec) { return container.create(spec.id); } ))
+    .then(function(impls) {
+      impls.forEach(function(impl) {
+        factory.use(impl);
       });
     })
     .then(function() {
