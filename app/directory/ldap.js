@@ -1,4 +1,4 @@
-exports = module.exports = function(container) {
+exports = module.exports = function() {
   
   return function createLDAPDirectory(options) {
     var LDAPDirectory = require('../../lib/ldapdirectory');
