@@ -30,13 +30,13 @@
     ]
   },
   "dependencies": {
-    "fluidfactory": "0.0.0",
+    "fluidfactory": "^0.1.0",
     "ldapjs": "^1.0.1"
   },
   "devDependencies": {
     "make-node": "^0.3.0",
-    "mocha": "^2.0.0",
-    "chai": "^3.0.0"
+    "mocha": "^3.4.2",
+    "chai": "^4.0.2"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha test/*.test.js"
