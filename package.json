@@ -1,7 +1,7 @@
 {
   "name": "bixby-ds",
   "version": "0.0.0",
-  "description": "",
+  "description": "Directory services for Bixby.js.",
   "author": {
     "name": "Jared Hanson",
     "email": "jaredhanson@gmail.com",
