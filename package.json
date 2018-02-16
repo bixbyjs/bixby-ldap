@@ -1,7 +1,7 @@
 {
   "name": "bixby-ds",
   "version": "0.0.0",
-  "description": "Directory services for Bixby.js.",
+  "description": "LDAP components for Bixby.js.",
   "author": {
     "name": "Jared Hanson",
     "email": "jaredhanson@gmail.com",
@@ -25,6 +25,7 @@
   "assembly": {
     "namespace": "ds",
     "components": [
+      "main",
       "directory",
       "directory/ldap"
     ]
