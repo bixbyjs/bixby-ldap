@@ -1,5 +1,5 @@
 {
-  "name": "bixby-ds",
+  "name": "bixby-ldap",
   "version": "0.0.0",
   "description": "LDAP components for Bixby.js.",
   "author": {
@@ -9,10 +9,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bixbyjs/bixby-ds.git"
+    "url": "git://github.com/bixbyjs/bixby-ldap.git"
   },
   "bugs": {
-    "url": "http://github.com/bixbyjs/bixby-ds/issues"
+    "url": "http://github.com/bixbyjs/bixby-ldap/issues"
   },
   "license": "MIT",
   "licenses": [
