@@ -23,15 +23,12 @@
   ],
   "main": "./app",
   "assembly": {
-    "namespace": "ds",
+    "namespace": "ldap",
     "components": [
-      "main",
-      "directory",
-      "directory/ldap"
+      "main"
     ]
   },
   "dependencies": {
-    "fluidfactory": "^0.1.0",
     "ldapjs": "^1.0.1"
   },
   "devDependencies": {
