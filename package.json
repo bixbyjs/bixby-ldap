@@ -26,6 +26,8 @@
     "namespace": "ldap",
     "components": [
       "main",
+      "classes/inetorgperson",
+      "classes/organizationalperson",
       "classes/person"
     ]
   },
