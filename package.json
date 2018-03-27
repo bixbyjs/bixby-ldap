@@ -25,7 +25,8 @@
   "assembly": {
     "namespace": "ldap",
     "components": [
-      "main"
+      "main",
+      "classes/person"
     ]
   },
   "dependencies": {
