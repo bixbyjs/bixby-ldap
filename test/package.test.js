@@ -11,8 +11,12 @@ describe('bixby-ldap', function() {
     it('should have assembly metadata', function() {
       expect(json.assembly.namespace).to.equal('ldap');
       
-      expect(json.assembly.components).to.have.length(1);
+      expect(json.assembly.components).to.have.length(5);
       expect(json.assembly.components).to.include('main');
+      expect(json.assembly.components).to.include('classes/inetorgperson');
+      expect(json.assembly.components).to.include('classes/organizationalperson');
+      expect(json.assembly.components).to.include('classes/person');
+      expect(json.assembly.components).to.include('classes/unix/posixaccount');
     });
   });
   

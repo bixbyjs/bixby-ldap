@@ -28,7 +28,8 @@
       "main",
       "classes/inetorgperson",
       "classes/organizationalperson",
-      "classes/person"
+      "classes/person",
+      "classes/unix/posixaccount"
     ]
   },
   "dependencies": {
